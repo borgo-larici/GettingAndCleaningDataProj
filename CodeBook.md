@@ -7,78 +7,80 @@ quoted entirely at the end of this file.
 
 ***
 
-### VARIABLES for "tidy_samsung_means.csv":
+### VARIABLES for "tidy_samsung_means.csv"
+
+**note 1:** The name and units for this variable are explained in features_info.txt of the raw "Samsung Data" set.  In "tidy_samsung_means.csv", this variable contains the MEAN of this measurement for the given activity_label and subject.
 
 Variable Name               | Description
 ---------------------       | -----------
 activity_label              | The name of the activity being performed by the subject during this observation. 
 subject                     | The subject (person) who performed the activity during this observation
-tBodyAcc-mean()-X           | Mean of like-named variable for this activity_label and subject.
-tBodyAcc-mean()-Y           | Mean of like-named variable for this activity_label and subject.
-tBodyAcc-mean()-Z           | Mean of like-named variable for this activity_label and subject.
-tBodyAcc-std()-X            | Mean of like-named variable for this activity_label and subject.
-tBodyAcc-std()-Y            | Mean of like-named variable for this activity_label and subject.
-tBodyAcc-std()-Z            | Mean of like-named variable for this activity_label and subject.
-tGravityAcc-mean()-X        | Mean of like-named variable for this activity_label and subject.
-tGravityAcc-mean()-Y        | Mean of like-named variable for this activity_label and subject.
-tGravityAcc-mean()-Z        | Mean of like-named variable for this activity_label and subject.
-tGravityAcc-std()-X         | Mean of like-named variable for this activity_label and subject.
-tGravityAcc-std()-Y         | Mean of like-named variable for this activity_label and subject.
-tGravityAcc-std()-Z         | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerk-mean()-X       | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerk-mean()-Y       | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerk-mean()-Z       | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerk-std()-X        | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerk-std()-Y        | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerk-std()-Z        | Mean of like-named variable for this activity_label and subject.
-tBodyGyro-mean()-X          | Mean of like-named variable for this activity_label and subject.
-tBodyGyro-mean()-Y          | Mean of like-named variable for this activity_label and subject.
-tBodyGyro-mean()-Z          | Mean of like-named variable for this activity_label and subject.
-tBodyGyro-std()-X           | Mean of like-named variable for this activity_label and subject.
-tBodyGyro-std()-Y           | Mean of like-named variable for this activity_label and subject.
-tBodyGyro-std()-Z           | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerk-mean()-X      | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerk-mean()-Y      | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerk-mean()-Z      | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerk-std()-X       | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerk-std()-Y       | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerk-std()-Z       | Mean of like-named variable for this activity_label and subject.
-tBodyAccMag-mean()          | Mean of like-named variable for this activity_label and subject.
-tBodyAccMag-std()           | Mean of like-named variable for this activity_label and subject.
-tGravityAccMag-mean()       | Mean of like-named variable for this activity_label and subject.
-tGravityAccMag-std()        | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerkMag-mean()      | Mean of like-named variable for this activity_label and subject.
-tBodyAccJerkMag-std()       | Mean of like-named variable for this activity_label and subject.
-tBodyGyroMag-mean()         | Mean of like-named variable for this activity_label and subject.
-tBodyGyroMag-std()          | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerkMag-mean()     | Mean of like-named variable for this activity_label and subject.
-tBodyGyroJerkMag-std()      | Mean of like-named variable for this activity_label and subject.
-fBodyAcc-mean()-X           | Mean of like-named variable for this activity_label and subject.
-fBodyAcc-mean()-Y           | Mean of like-named variable for this activity_label and subject.
-fBodyAcc-mean()-Z           | Mean of like-named variable for this activity_label and subject.
-fBodyAcc-std()-X            | Mean of like-named variable for this activity_label and subject.
-fBodyAcc-std()-Y            | Mean of like-named variable for this activity_label and subject.
-fBodyAcc-std()-Z            | Mean of like-named variable for this activity_label and subject.
-fBodyAccJerk-mean()-X       | Mean of like-named variable for this activity_label and subject.
-fBodyAccJerk-mean()-Y       | Mean of like-named variable for this activity_label and subject.
-fBodyAccJerk-mean()-Z       | Mean of like-named variable for this activity_label and subject.
-fBodyAccJerk-std()-X        | Mean of like-named variable for this activity_label and subject.
-fBodyAccJerk-std()-Y        | Mean of like-named variable for this activity_label and subject.
-fBodyAccJerk-std()-Z        | Mean of like-named variable for this activity_label and subject.
-fBodyGyro-mean()-X          | Mean of like-named variable for this activity_label and subject.
-fBodyGyro-mean()-Y          | Mean of like-named variable for this activity_label and subject.
-fBodyGyro-mean()-Z          | Mean of like-named variable for this activity_label and subject.
-fBodyGyro-std()-X           | Mean of like-named variable for this activity_label and subject.
-fBodyGyro-std()-Y           | Mean of like-named variable for this activity_label and subject.
-fBodyGyro-std()-Z           | Mean of like-named variable for this activity_label and subject.
-fBodyAccMag-mean()          | Mean of like-named variable for this activity_label and subject.
-fBodyAccMag-std()           | Mean of like-named variable for this activity_label and subject.
-fBodyBodyAccJerkMag-mean()  | Mean of like-named variable for this activity_label and subject.
-fBodyBodyAccJerkMag-std()   | Mean of like-named variable for this activity_label and subject.
-fBodyBodyGyroMag-mean()     | Mean of like-named variable for this activity_label and subject.
-fBodyBodyGyroMag-std()      | Mean of like-named variable for this activity_label and subject.
-fBodyBodyGyroJerkMag-mean() | Mean of like-named variable for this activity_label and subject.
-fBodyBodyGyroJerkMag-std()  | Mean of like-named variable for this activity_label and subject.
+tBodyAcc-mean()-X           | (see note 1)
+tBodyAcc-mean()-Y           | (see note 1)
+tBodyAcc-mean()-Z           | (see note 1)
+tBodyAcc-std()-X            | (see note 1)
+tBodyAcc-std()-Y            | (see note 1)
+tBodyAcc-std()-Z            | (see note 1)
+tGravityAcc-mean()-X        | (see note 1)
+tGravityAcc-mean()-Y        | (see note 1)
+tGravityAcc-mean()-Z        | (see note 1)
+tGravityAcc-std()-X         | (see note 1)
+tGravityAcc-std()-Y         | (see note 1)
+tGravityAcc-std()-Z         | (see note 1)
+tBodyAccJerk-mean()-X       | (see note 1)
+tBodyAccJerk-mean()-Y       | (see note 1)
+tBodyAccJerk-mean()-Z       | (see note 1)
+tBodyAccJerk-std()-X        | (see note 1)
+tBodyAccJerk-std()-Y        | (see note 1)
+tBodyAccJerk-std()-Z        | (see note 1)
+tBodyGyro-mean()-X          | (see note 1)
+tBodyGyro-mean()-Y          | (see note 1)
+tBodyGyro-mean()-Z          | (see note 1)
+tBodyGyro-std()-X           | (see note 1)
+tBodyGyro-std()-Y           | (see note 1)
+tBodyGyro-std()-Z           | (see note 1)
+tBodyGyroJerk-mean()-X      | (see note 1)
+tBodyGyroJerk-mean()-Y      | (see note 1)
+tBodyGyroJerk-mean()-Z      | (see note 1)
+tBodyGyroJerk-std()-X       | (see note 1)
+tBodyGyroJerk-std()-Y       | (see note 1)
+tBodyGyroJerk-std()-Z       | (see note 1)
+tBodyAccMag-mean()          | (see note 1)
+tBodyAccMag-std()           | (see note 1)
+tGravityAccMag-mean()       | (see note 1)
+tGravityAccMag-std()        | (see note 1)
+tBodyAccJerkMag-mean()      | (see note 1)
+tBodyAccJerkMag-std()       | (see note 1)
+tBodyGyroMag-mean()         | (see note 1)
+tBodyGyroMag-std()          | (see note 1)
+tBodyGyroJerkMag-mean()     | (see note 1)
+tBodyGyroJerkMag-std()      | (see note 1)
+fBodyAcc-mean()-X           | (see note 1)
+fBodyAcc-mean()-Y           | (see note 1)
+fBodyAcc-mean()-Z           | (see note 1)
+fBodyAcc-std()-X            | (see note 1)
+fBodyAcc-std()-Y            | (see note 1)
+fBodyAcc-std()-Z            | (see note 1)
+fBodyAccJerk-mean()-X       | (see note 1)
+fBodyAccJerk-mean()-Y       | (see note 1)
+fBodyAccJerk-mean()-Z       | (see note 1)
+fBodyAccJerk-std()-X        | (see note 1)
+fBodyAccJerk-std()-Y        | (see note 1)
+fBodyAccJerk-std()-Z        | (see note 1)
+fBodyGyro-mean()-X          | (see note 1)
+fBodyGyro-mean()-Y          | (see note 1)
+fBodyGyro-mean()-Z          | (see note 1)
+fBodyGyro-std()-X           | (see note 1)
+fBodyGyro-std()-Y           | (see note 1)
+fBodyGyro-std()-Z           | (see note 1)
+fBodyAccMag-mean()          | (see note 1)
+fBodyAccMag-std()           | (see note 1)
+fBodyBodyAccJerkMag-mean()  | (see note 1)
+fBodyBodyAccJerkMag-std()   | (see note 1)
+fBodyBodyGyroMag-mean()     | (see note 1)
+fBodyBodyGyroMag-std()      | (see note 1)
+fBodyBodyGyroJerkMag-mean() | (see note 1)
+fBodyBodyGyroJerkMag-std()  | (see note 1)
 
 
 
